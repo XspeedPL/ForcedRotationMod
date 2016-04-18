@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Forced Screen Rotation Mod</string>
+
+    <string name="act_toggle">Toggle auto-rotation</string>
+    <string name="diag_rot">Auto-rotation</string>
+    <string name="diag_en">enabled</string>
+    <string name="diag_dis">disabled</string>
+    
+    <string name="pref_setrot0_t">Replaced normal orientation</string>
+    <string name="pref_setrot0_s">This orientation will be reported instead of the normal one</string>
+    
+    <string name="pref_setrot1_t">Replaced auto-rotation orientation</string>
+    <string name="pref_setrot1_s">This orientation will be reported instead of reading sensor values</string>
+    
+    <string name="pref_moderot_t">Override mode</string>
+    <string name="pref_moderot_s">Decide if apps should have any freedom to change orientation</string>
+    <string-array name="pref_moderot_e">
+        <item>Normal (only apps with free orientation overriden)</item>
+        <item>Forced (all apps with any orientation overriden)</item>
+        <item>Absolute (even system events such as docking are overriden)</item>
+    </string-array>
+    
+    <string-array name="empty" />
+    
+    <string name="pref_whitelist_t">Whitelisted apps</string>
+    <string name="pref_whitelist_s">Apps on this list will receive original sensor information</string>
+</resources>

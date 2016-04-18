@@ -1,0 +1,32 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+        <ListPreference
+            android:key="setRot0"
+            android:title="@string/pref_setrot0_t"
+            android:summary="@string/pref_setrot0_s"
+            android:entries="@array/empty"
+            android:entryValues="@array/empty"
+            android:defaultValue="666"
+        />
+	    <ListPreference
+	        android:key="setRot1"
+	        android:title="@string/pref_setrot1_t"
+            android:summary="@string/pref_setrot1_s"
+            android:entries="@array/empty"
+            android:entryValues="@array/empty"
+            android:defaultValue="666"
+	    />
+        <xeed.library.preference.AppListPreference
+            android:key="whiteList"
+            android:title="@string/pref_whitelist_t"
+            android:summary="@string/pref_whitelist_s"
+        />
+        <ListPreference
+            android:key="modeRot"
+            android:title="@string/pref_moderot_t"
+            android:summary="@string/pref_moderot_s"
+            android:entries="@array/pref_moderot_e"
+            android:entryValues="@array/pref_moderot_e"
+        />
+</PreferenceScreen>

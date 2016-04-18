@@ -1,0 +1,5 @@
+-keep public class xeed.xposed.fxrmod.ForcedRotationMod
+
+-keepattributes InnerClasses
+
+-libraryjars ../Libraries/XposedBridgeApi.jar
