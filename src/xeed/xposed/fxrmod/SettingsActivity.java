@@ -38,7 +38,6 @@ public final class SettingsActivity extends BaseSettings
                 entries.add("Reverse portrait");
                 entries.add("Sensor landscape");
                 entries.add("Sensor portrait");
-                values.add(Integer.toString(ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR));
                 values.add(Integer.toString(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE));
                 values.add(Integer.toString(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT));
                 values.add(Integer.toString(ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE));
