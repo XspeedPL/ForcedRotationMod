@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion exCompileSdkVersion
+    buildToolsVersion exBuildToolsVersion
+
+    defaultConfig {
+        applicationId "xeed.xposed.fxrmod"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 13
+        versionName "1.6"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compileOnly project(':hax')
+    implementation project(':library')
+
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.preference:preference:+'
+
+    compileOnly 'de.robv.android.xposed:api:+'
+}
